@@ -1,0 +1,110 @@
+body {
+	background: url(../imagens/fundo.png) no-repeat ;
+	background-size: 1700px;
+}
+
+/* Header */
+nav.navbar-transparente {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.menu h3 {
+	margin-right: 15px;
+	color: white;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+/* Capa */
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.capa {
+	text-align: center;
+}
+
+.btn-custom:hover {
+	color: orange;
+}
+
+.btn-custom {
+	color: white;
+	background: rgba(50, 50, 0, 0.8);
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	margin-top: 40px;
+}
+
+/* Estrutura Conteúdo */
+#conteudo {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/* Footer */
+footer{
+	background: rgba(0, 0, 0, 0.4);
+	margin-top: 200px;
+	background: black;
+}
+
+footer .nav-link {
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+
+footer ul {
+	margin-top: 15px;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer {
+	height: 150px;
+}
+
+.rodape-imagem {
+	margin-top: 25px;
+	margin-left: 200px;
+}
+
+/* Tipografia */
+h1.titulo-capa {
+	font-size: 4em;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	margin-top: 150px;
+}
+
+.titulo-conteudo2 {
+	margin-left: 15px;
+}
+
+.texto-conteudo2 {
+	background: white;
+	padding-left: 5px;
+	margin-left: 15px;
+}
